@@ -32,9 +32,8 @@ The search grid points are then used to call the function GetListOfRestaurants.p
 
 The main executable code: 
 
-'''
-python MapBoxRatio.py FILENAME_GeoJSON
-'''
+```python MapBoxRatio.py FILENAME_GeoJSON
+```
 It requires both a google api token and a mapbox API token, which can be acquired here: https://docs.mapbox.com/help/how-mapbox-works/access-tokens/
 
 Takes the polygons that cover the search regions you want on your map and does a gmap search for restaurants within the provided radius. The number of hits is stored as an integer between 0, 20. Nearby addresses (from the geocoding script) are matched within a 0.25km box region. Matched addresses/ number of hits is stored as the main observable for the map plots. All the output information is stored in DensityMap.csv. 
