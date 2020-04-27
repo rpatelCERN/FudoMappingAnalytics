@@ -32,7 +32,8 @@ The search grid points are then used to call the function GetListOfRestaurants.p
 
 The main executable code: 
 
-```python MapBoxRatio.py FILENAME_GeoJSON
+```  
+python MapBoxRatio.py FILENAME_GeoJSON
 ```
 It requires both a google api token and a mapbox API token, which can be acquired here: https://docs.mapbox.com/help/how-mapbox-works/access-tokens/
 
